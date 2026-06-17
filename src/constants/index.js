@@ -39,7 +39,7 @@ export const myProjects = [
     subDescription: [
       "Medical Chain ID is a blockchain-based platform developed with Motoko, React, Tailwind CSS, and Vite, enabling patients to securely own and manage their medical records. It offers advanced encryption, passwordless authentication, and granular access controls, allowing seamless and secure sharing of health data across different healthcare institutions.",
     ],
-    href: "https://medicalchainid.com/",
+    href: "https://github.com/nidioganteng/MedicalChainID.git",
     logo: "",
     image: asset("assets/projects/medicalchain.png"),
     tags: [
@@ -73,7 +73,7 @@ export const myProjects = [
     subDescription: [
       "Codeblock is a web development agency platform built with React, Tailwind CSS, and JavaScript. It presents the agency's services in a clean and professional interface, allowing potential clients to learn about available offerings, reach out via contact, and submit a booking request to kickstart their web project.",
     ],
-    href: "",
+    href: "https://codeeblock.com/",
     logo: "",
     image: asset("assets/projects/codeblock.png"),
     tags: [
@@ -102,7 +102,7 @@ export const myProjects = [
     subDescription: [
       "NeuraBloom is a web application built with Laravel, Tailwind CSS, and MySQL, designed to support children with autism through structured learning. Each module pairs a video lesson with an immediate follow-up quiz, reinforcing understanding in a consistent flow. The UI is thoughtfully crafted to be visually clear and autism-friendly, ensuring content is easy to navigate and engage with.",
     ],
-    href: "",
+    href: "https://neurabloom.vercel.app/",
     logo: "",
     image: asset("assets/projects/neurabloom.png"),
     tags: [
@@ -131,7 +131,7 @@ export const myProjects = [
     subDescription: [
       "Mijn Amor is a fully responsive travel platform built with Laravel, Tailwind CSS, and MySQL. Users must register to access the platform, where they can browse travel products, book trips by submitting passenger details and travel dates, and complete payment via Stripe. Confirmed bookings appear in the user's personal travel page, showing departure details and a WhatsApp group link for trip coordination. Users can also view their past journeys through a track record page and contact the admin directly one-on-one. On the admin side, the dashboard provides a full overview of bookings, revenue, and user activity. Admins can manage travel products and track records with full CRUD capabilities — including titles, descriptions, photos, pricing, and WhatsApp links — as well as monitor all registered users and track payment statuses across all transactions.",
     ],
-    href: "",
+    href: "https://mijnamortravel.com/",
     logo: "",
     image: asset("assets/projects/travelwebapp.png"),
     tags: [
