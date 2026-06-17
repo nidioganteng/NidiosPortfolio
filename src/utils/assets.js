@@ -1,1 +1,1 @@
-export const asset = (path) => `${import.meta.env.BASE_URL}/${path}`;
+export const asset = (path) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path}`;
