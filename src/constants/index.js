@@ -1,3 +1,5 @@
+import { asset } from "../utils/assets";
+
 export const myProjects = [
 
   {
@@ -10,22 +12,22 @@ export const myProjects = [
     ],
     href: "https://betazeta.carrd.co/",
     logo: "",
-    image: "assets/projects/betazeta.png",
+    image: asset("assets/projects/betazeta.png"),
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: "assets/logos/html5.svg",
+        path: asset("assets/logos/html5.svg"),
       },
       {
         id: 2,
         name: "CSS",
-        path: "assets/logos/css3.svg",
+        path: asset("assets/logos/css3.svg"),
       },
       {
         id: 3,
         name: "JavaScript",
-        path: "assets/logos/javascript.svg",
+        path: asset("assets/logos/javascript.svg"),
       },
     ],
   },
@@ -39,27 +41,27 @@ export const myProjects = [
     ],
     href: "https://medicalchainid.com/",
     logo: "",
-    image: "assets/projects/medicalchain.png",
+    image: asset("assets/projects/medicalchain.png"),
     tags: [
       {
         id: 1,
         name: "React",
-        path: "assets/logos/react.svg",
+        path: asset("assets/logos/react.svg"),
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/logos/tailwindcss.svg",
+        path: asset("assets/logos/tailwindcss.svg"),
       },
       {
         id: 3,
         name: "Vite",
-        path: "assets/logos/vitejs.svg",
+        path: asset("assets/logos/vitejs.svg"),
       },
       {
         id: 4,
         name: "Motoko",
-        path: "assets/logos/motoku.png",
+        path: asset("assets/logos/motoku.png"),
       },
     ],
   },
@@ -69,17 +71,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "assets/socials/whatsApp.svg",
+    icon: asset("assets/socials/whatsApp.svg"),
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/nidio-tilman-b666a7377/",
-    icon: "assets/socials/linkedIn.svg",
+    icon: asset("assets/socials/linkedIn.svg"),
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/kezarstorski/?next=%2F",
-    icon: "assets/socials/instagram.svg",
+    icon: asset("assets/socials/instagram.svg"),
   },
 ];
 

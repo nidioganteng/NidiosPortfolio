@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
+import { asset } from "../utils/assets";
 
 const Project = ({
   title,
@@ -8,7 +9,7 @@ const Project = ({
   href,
   image,
   tags,
-  setPreview,
+  setPreview = () => {},
 }) => {
   const [isHidden, setIsHidden] = useState(false);
   return (
@@ -31,7 +32,7 @@ const Project = ({
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" />
+          <img src={asset("assets/arrow-right.svg")} className="w-5" />
         </button>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />

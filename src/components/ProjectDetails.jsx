@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { asset } from "../utils/assets";
 const ProjectDetails = ({
   title,
   description,
@@ -19,7 +20,7 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="w-6 h-6" />
+          <img src={asset("assets/close.svg")} className="w-6 h-6" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
@@ -47,7 +48,7 @@ const ProjectDetails = ({
               
             >
               View Project
-              <img src="assets/arrow-up.svg" className="size-4" />
+              <img src={asset("assets/arrow-up.svg")} className="size-4" />
             </a>
           </div>
         </div>
