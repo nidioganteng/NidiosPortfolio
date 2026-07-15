@@ -1,14 +1,10 @@
 import { motion } from "motion/react";
 import { asset } from "../utils/assets";
-const ProjectDetails = ({
-  title,
-  description,
-  subDescription,
-  image,
-  tags,
-  href,
-  closeModal,
-}) => {
+import { useLanguage } from "../context/LanguageContext";
+
+const ProjectDetails = ({ title, description, subDescription, image, tags, href, closeModal }) => {
+  const { t } = useLanguage();
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
@@ -20,14 +16,14 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src={asset("assets/close.svg")} className="w-6 h-6" />
+          <img src={asset("assets/close.svg")} className="w-6 h-6" width="24" height="24" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" loading="lazy" width="672" height="378" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
+            <p key={index} className="mb-3 font-normal text-neutral-400">{subDesc}</p>
           ))}
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
@@ -43,15 +39,14 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a 
+            <a
               href={href}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
-              
             >
-              View Project
-              <img src={asset("assets/arrow-up.svg")} className="size-4" />
+              {t.projects.viewProject}
+              <img src={asset("assets/arrow-up.svg")} className="size-4" width="16" height="16" />
             </a>
           </div>
         </div>
