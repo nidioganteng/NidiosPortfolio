@@ -16,6 +16,8 @@ const About = () => {
                     src={asset("assets/coding-pov.webp")}
                     className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
                     loading="lazy"
+                    width="1328"
+                    height="813"
                 />
                 <div className="z-10">
                     <p className="headtext">Hi, I'm Nidio Tilman</p>
