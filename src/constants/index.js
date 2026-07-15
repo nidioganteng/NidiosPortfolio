@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "https://betazeta.carrd.co/",
     logo: "",
-    image: asset("assets/projects/betazeta.png"),
+    image: asset("assets/projects/betazeta.webp"),
     tags: [
       {
         id: 1,
@@ -41,7 +41,7 @@ export const myProjects = [
     ],
     href: "https://github.com/nidioganteng/MedicalChainID.git",
     logo: "",
-    image: asset("assets/projects/medicalchain.png"),
+    image: asset("assets/projects/medicalchain.webp"),
     tags: [
       {
         id: 1,
@@ -61,7 +61,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Motoko",
-        path: asset("assets/logos/motoku.png"),
+        path: asset("assets/logos/motoku.webp"),
       },
     ],
   },
@@ -75,7 +75,7 @@ export const myProjects = [
     ],
     href: "https://codeeblock.com/",
     logo: "",
-    image: asset("assets/projects/codeblock.png"),
+    image: asset("assets/projects/codeblock.webp"),
     tags: [
       {
         id: 1,
@@ -104,12 +104,12 @@ export const myProjects = [
     ],
     href: "https://neurabloom.vercel.app/",
     logo: "",
-    image: asset("assets/projects/neurabloom.png"),
+    image: asset("assets/projects/neurabloom.webp"),
     tags: [
       {
         id: 1,
         name: "Laravel",
-        path: asset("assets/logos/laravel.png"),
+        path: asset("assets/logos/laravel.webp"),
       },
       {
         id: 2,
@@ -133,12 +133,12 @@ export const myProjects = [
     ],
     href: "https://mijnamortravel.com/",
     logo: "",
-    image: asset("assets/projects/travelwebapp.png"),
+    image: asset("assets/projects/travelwebapp.webp"),
     tags: [
       {
         id: 1,
         name: "Laravel",
-        path: asset("assets/logos/laravel.png"),
+        path: asset("assets/logos/laravel.webp"),
       },
       {
         id: 2,
@@ -162,7 +162,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: asset("assets/projects/yourskin.png"),
+    image: asset("assets/projects/yourskin.webp"),
     tags: [
       {
         id: 1,

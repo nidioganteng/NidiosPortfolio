@@ -13,7 +13,7 @@ const About = () => {
             {/* Grid 1 */}
             <div className="flex items-end grid-default-color grid-1">
                 <img
-                    src={asset("assets/coding-pov.png")}
+                    src={asset("assets/coding-pov.webp")}
                     className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
                 />
                 <div className="z-10">
@@ -67,21 +67,21 @@ const About = () => {
 
                     <Card
                     style={{ rotate: "30deg", top: "70%", left: "70%" }}
-                    image={asset("assets/logos/linkidin.png")}
+                    image={asset("assets/logos/linkidin.webp")}
                     link="https://www.linkedin.com/in/nidio-tilman-b666a7377/"
                     containerRef={grid2Container}
                     />
 
                     <Card
                     style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-                    image={asset("assets/logos/github.png")}
+                    image={asset("assets/logos/github.webp")}
                     link="https://github.com/nidioganteng"
                     containerRef={grid2Container}
                     />
 
                     <Card
                     style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-                    image={asset("assets/logos/Instagram.png")}
+                    image={asset("assets/logos/Instagram.webp")}
                     link="https://www.instagram.com/kezarstorski/"
                     containerRef={grid2Container}
                     />
