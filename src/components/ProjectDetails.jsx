@@ -22,7 +22,7 @@ const ProjectDetails = ({
         >
           <img src={asset("assets/close.svg")} className="w-6 h-6" />
         </button>
-        <img src={image} alt={title} className="w-full rounded-t-2xl" />
+        <img src={image} alt={title} className="w-full rounded-t-2xl" loading="lazy" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
@@ -37,6 +37,7 @@ const ProjectDetails = ({
                   src={tag.path}
                   alt={tag.name}
                   className="rounded-lg size-10 hover-animation"
+                  loading="lazy"
                 />
               ))}
             </div>

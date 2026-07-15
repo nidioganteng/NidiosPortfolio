@@ -17,7 +17,7 @@ const GLOBE_CONFIG = {
   theta: 0.3,
   dark: 1,
   diffuse: 0.4,
-  mapSamples: 16000,
+  mapSamples: 3000,
   mapBrightness: 1.2,
   baseColor: [1, 1, 1],
   markerColor: [1, 1, 1],

@@ -33,5 +33,5 @@ export function Framework() {
 }
 
 const Icon = ({ src }) => (
-  <img src={src} className="duration-200 rounded-sm hover:scale-110" />
+  <img src={src} className="duration-200 rounded-sm hover:scale-110" loading="lazy" />
 );
