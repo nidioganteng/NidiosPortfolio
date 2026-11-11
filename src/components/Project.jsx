@@ -9,7 +9,7 @@ const Project = ({ title, description, subDescription, href, image, tags }) => {
 
   return (
     <>
-      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0">
+      <div className="flex flex-col gap-4 py-10 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-2xl">{title}</p>
           <div className="flex gap-5 mt-2 text-sand">

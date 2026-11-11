@@ -58,6 +58,10 @@ body {
   overflow-x: hidden;
 }
 
+.c-space {
+  @apply px-5 sm:px-10;
+}
+
 .hover-animation {
   @apply hover:-translate-y-1 duration-200;
 }
